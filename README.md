@@ -1,8 +1,55 @@
-# React + Vite
+# React Firebase Authentication
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple React application that provides user authentication using Firebase. It includes features for user registration, login, and routing to a profile page after successful authentication.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- User registration with email and password
+- User login with email and password
+- Google accounts can be used to sign in
+- Firebase authentication
+- Routing using React Router
+- Responsive design
+
+## Technologies Used
+
+- React
+- Firebase (Authentication, Firestore)
+- Vite
+- React Router
+- CSS (with Google Fonts)
+- React Toastify (for notifications)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Pushkarbhangale15/Login-with-google.git
+   ```
+2. Clone the repository:
+
+    ```bash
+    cd Login-with-google
+    ```
+3. Install the required dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start on Localhost:
+
+    ```bash
+    npm run dev
+    ```
