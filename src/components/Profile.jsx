@@ -26,6 +26,9 @@ const Profile = () => {
     try {
       await auth.signOut();
       console.log("User logged out successfully!");
+      toast.success("User logged out successfully", {
+        position: "top-center",
+      });
       window.location.href = "/login";
     } catch (error) {
       console.error("Error logging out:", error.message);
