@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { auth, db } from "./Firebase";
 import { doc, getDoc } from "firebase/firestore";
-
+import { toast } from "react-toastify";
 const Profile = () => {
   const [userDetails, setUserDetails] = useState(null);
   const fetchUserData = async () => {
